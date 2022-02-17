@@ -1,0 +1,19 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+form {
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+select,
+textarea,
+button {
+    margin: 0 0 10px 0;
+    padding: 4px;
+}

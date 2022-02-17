@@ -1,0 +1,23 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  font-family: sans-serif;
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.box {
+  width: 50%;
+  background: pink;
+}
+
+.box:last-child {
+  background: skyblue;
+}
